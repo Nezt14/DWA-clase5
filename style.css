@@ -11,14 +11,14 @@ body {
 }
 
 header {
-    background-color: #0077cc;
+    background: radial-gradient(circle, #2926ed, #6545a5);
     color: white;
     text-align: center;
     padding: 25px;
 }
 
 nav {
-    background-color: #005fa3;
+    background: radial-gradient(circle, #8a05ac, #6545a5);
     text-align: center;
     padding: 12px;
 }
@@ -72,12 +72,12 @@ main {
 }
 
 button {
-    background-color: #0077cc;
+    display: inline-block;
+    background: radial-gradient(circle, #ED7A26, #6C3FC9);
     color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
+    padding: 12px 28px;
+    border-radius: 6px;
+    text-decoration: none;
 }
 
 button:hover {
